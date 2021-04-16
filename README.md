@@ -2,39 +2,39 @@
 
 sudo apt install python3 python3-pip
 
-pip3 установить discord
+pip3 install discord
 
-pip3 установить colorama
+pip3 install colorama
 
-запросы на установку pip3
+pip3 install requests
 
-клон git https://github.com/EternalB-1/discord-crasher_en
+git clone https://github.com/EternalB-1/discord-crasher_en
 
 cd discord_crasher_en
 
-нано modded.py
+nano modded.py
 
-client.run('your_token')
+client.run('токен')
 
 <h2>Использование:</h2>
 
-<h3>На вкладке бот в discord developers прокрутите вниз и включите намерение членов сервера</h3>
+<h3>На вкладке бот в discord developers прокрутите вниз и включите server members intent</h3>
 
 ![Проверка](https://i.ibb.co/c8cZ68g/unknown.png)
 
 python3 modded.py
 
-Бота на сервере нужно выдать администратору, либо заранее встроить администратора в OAuth2
+Боту на сервере нужно выдать права администратора, либо заранее сделать это в OAuth2
 
 <h2>Команды:</h2>
 
-$hlp - автоматический сбой сервера
+$hlp - автоматический краш сервера
 
 $ml - спам-сообщения в определенном канале
 
-$start - удалить все роли, которые может выполнять бот
+$start - удалить все роли
 
-$game (Role location in the role hierarchy) - выдает роль с правами администратора тому, кто ее ввел, нужно указать расположение роли, желательно выше обычной роли пользователя
+$game (Расположение роли в иерархии ролей) - выдает роль с правами администратора тому, кто ее ввел, нужно указать расположение роли, желательно выше обычной роли пользователя
 
 $gamehelp - отображает список ролей в консоли в соответствии с иерархической лестницей(только наоборот, то есть @everyone вверху, а самый высокий внизу)
 
