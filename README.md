@@ -8,9 +8,9 @@ pip3 install colorama
 
 pip3 install requests
 
-git clone https://github.com/EternalB-1/discord-crasher_en
+git clone https://github.com/EternalB-1/discord-crasher_ru
 
-cd discord_crasher_en
+cd discord_crasher_ru
 
 nano modded.py
 
